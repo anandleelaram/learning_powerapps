@@ -1,0 +1,37 @@
+scrnHome As screen:
+    OnVisible: |
+        =Set(
+            varMenuData,
+            Table(
+                {
+                    TabMenuName: "Home",
+                    GoToTabMenuScreen: scrnHome
+                },
+                {
+                    TabMenuName: "About",
+                    GoToTabMenuScreen: scrnAbout
+                }
+            )
+        );
+        Set(
+            varSelectedMenuItem,
+            cmpntTabMenu_1.custPropSelectedMenu
+        );
+
+    cmpntTabMenu_3 As cmpntTabMenu:
+        custPropSetSelectedMenu: =varSelectedMenuItem
+        custPropTabLstMenuItems: =varMenuData
+        Height: =cmpntTabMenu_3.custPropHeight
+        Width: =444
+        ZIndex: =2
+
+    TextCanvas1 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =77
+        Size: =40
+        Text: ="Home"
+        Width: =416
+        X: =40
+        Y: =186
+        ZIndex: =3
+

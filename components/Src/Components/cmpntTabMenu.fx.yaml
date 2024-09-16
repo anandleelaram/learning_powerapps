@@ -1,0 +1,43 @@
+cmpntTabMenu As CanvasComponent:
+    custPropHeight: =100
+    custPropSelectedMenu: =tabLstMenu.Selected
+    custPropSetSelectedMenu: |-
+        =  {
+                TabMenuName: "Home",
+                GoToTabMenuScreen: App.ActiveScreen
+            }
+    custPropTabLstMenuItems: |-
+        =Table(
+            {
+                TabMenuName: "Home",
+                GoToTabMenuScreen: App.ActiveScreen
+            }
+        )
+    custPropWidth: =100
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =cmpntTabMenu.custPropHeight
+    Width: =cmpntTabMenu.custPropWidth
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    "tabLstMenu As 'Tab list'.pcfdataset":
+        DefaultSelectedItems: =cmpntTabMenu.custPropSetSelectedMenu
+        DisplayMode: =DisplayMode.Edit
+        Height: =Parent.Height
+        Items: =cmpntTabMenu.custPropTabLstMenuItems
+        OnSelect: |
+            =Navigate(tabLstMenu.Selected.GoToTabMenuScreen, ScreenTransition.None)
+        Width: =Parent.Width
+        X: =Parent.X
+        Y: =Parent.Y
+        ZIndex: =1
+
+        TabMenuName1 As PowerApps_CoreControls_TabListTemplate_dataField.textualColumn:
+            FieldDisplayName: ="TabMenuName"
+            FieldName: ="TabMenuName"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =1
+            ZIndex: =1
+

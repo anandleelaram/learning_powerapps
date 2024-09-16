@@ -1,0 +1,19 @@
+scrnAbout As screen:
+    OnVisible: =
+
+    cmpntTabMenu_1 As cmpntTabMenu:
+        custPropSetSelectedMenu: =varSelectedMenuItem
+        custPropTabLstMenuItems: =varMenuData
+        Height: =cmpntTabMenu_1.custPropHeight
+        Width: =521
+
+    TextCanvas1_1 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =77
+        Size: =40
+        Text: ="About"
+        Width: =416
+        X: =40
+        Y: =186
+        ZIndex: =2
+
