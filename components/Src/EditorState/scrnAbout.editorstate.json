@@ -33,7 +33,7 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "custPropDefaultSelectedItems",
+        "custPropSelectedItem",
         "OnReset"
       ],
       "HasDynamicProperties": false,
@@ -72,7 +72,7 @@
         },
         {
           "Category": "Data",
-          "PropertyName": "custPropDefaultSelectedItems",
+          "PropertyName": "custPropSelectedItem",
           "RuleProviderType": "System"
         },
         {

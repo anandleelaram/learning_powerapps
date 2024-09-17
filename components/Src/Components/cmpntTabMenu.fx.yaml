@@ -1,10 +1,7 @@
 cmpntTabMenu As CanvasComponent:
-    custPropDefaultSelectedItems: |-
-        ={
-            TabMenuName: "Home",
-            GoToTabMenuScreen: App.ActiveScreen
-        }
     custPropHeight: =100
+    custPropSelectedItem: |-
+        ={SampleStringField: "SampleText", SampleNumberField: 10, SampleBooleanField: true}
     custPropTabLstMenuItems: |-
         =Table(
             {
@@ -27,7 +24,8 @@ cmpntTabMenu As CanvasComponent:
         Height: =Parent.Height
         Items: =cmpntTabMenu.custPropTabLstMenuItems
         OnSelect: |
-            =Navigate(tabLstMenu.Selected.GoToTabMenuScreen, ScreenTransition.None)
+            =Set(locTab, Self.Selected);
+            Navigate(tabLstMenu.Selected.GoToTabMenuScreen, ScreenTransition.None)
         Width: =Parent.Width
         X: =Parent.X
         Y: =Parent.Y
