@@ -1,9 +1,5 @@
 scrnHome As screen:
-    OnVisible: |
-        =Set(
-            varSelectedMenuItem,
-            cmpntTabMenu_1.custPropSelectedMenu
-        )
+    OnVisible: =
 
     cmpntTabMenu_3 As cmpntTabMenu:
         custPropSetSelectedMenu: =varSelectedMenuItem
