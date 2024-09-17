@@ -174,6 +174,14 @@
             "InvariantPropertyName": "DefaultSelectedItems",
             "IsLockable": false,
             "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "false",
+            "InvariantPropertyName": "OnChange",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
           }
         ],
         "ControlUniqueId": "5",
@@ -245,6 +253,12 @@
             "InvariantScript": "Set(locTab, Self.Selected);\nNavigate(tabLstMenu.Selected.GoToTabMenuScreen, ScreenTransition.None)\n",
             "Property": "OnSelect",
             "RuleProviderType": "User"
+          },
+          {
+            "Category": "Behavior",
+            "InvariantScript": "Set(locTab, Self.Selected)",
+            "Property": "OnChange",
+            "RuleProviderType": "User"
           }
         ],
         "StyleName": "",
@@ -306,7 +320,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638621645446977257",
+    "LastModifiedTimestamp": "638621646897463598",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -417,7 +431,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638621645446977257",
+  "LastModifiedTimestamp": "638621646897463598",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"
