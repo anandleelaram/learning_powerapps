@@ -1,6 +1,7 @@
 scrnHome As screen:
     OnVisible: |-
-        =ClearCollect(
+        =ClearCollect(varMenuData, Blank());
+        ClearCollect(
             varMenuData,
             [
                 {
@@ -12,7 +13,7 @@ scrnHome As screen:
                     GoToTabMenuScreen: scrnAbout
                 }
             ]
-        )
+        );
 
     cmpntTabMenu_3 As cmpntTabMenu:
         custPropTabLstMenuItems: =varMenuData
