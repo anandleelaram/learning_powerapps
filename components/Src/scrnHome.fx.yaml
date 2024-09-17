@@ -1,5 +1,18 @@
 scrnHome As screen:
-    OnVisible: =
+    OnVisible: |
+        =ClearCollect(
+            varMenuData,
+            [
+                {
+                    TabMenuName: "Home",
+                    GoToTabMenuScreen: scrnHome
+                },
+                {
+                    TabMenuName: "About",
+                    GoToTabMenuScreen: scrnAbout
+                }
+            ]
+        );
 
     cmpntTabMenu_3 As cmpntTabMenu:
         custPropSetSelectedMenu: =
