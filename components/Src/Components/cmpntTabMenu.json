@@ -250,7 +250,7 @@
           },
           {
             "Category": "Behavior",
-            "InvariantScript": "Set(locTab, First(Filter(cmpntTabMenu.custPropTabLstMenuItems,GoToTabMenuScreen = App.ActiveScreen)));\nNavigate(tabLstMenu.Selected.GoToTabMenuScreen, ScreenTransition.None)\n",
+            "InvariantScript": "Navigate(tabLstMenu.Selected.GoToTabMenuScreen, ScreenTransition.None)\n",
             "Property": "OnSelect",
             "RuleProviderType": "User"
           },
@@ -305,7 +305,7 @@
       "custPropWidth",
       "OnReset"
     ],
-    "LastModifiedTimestamp": "638621658771412528",
+    "LastModifiedTimestamp": "638621659224318872",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -410,7 +410,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638621658771412528",
+  "LastModifiedTimestamp": "638621659224318872",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"
