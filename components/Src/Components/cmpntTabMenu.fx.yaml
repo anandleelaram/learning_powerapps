@@ -4,7 +4,7 @@ cmpntTabMenu As CanvasComponent:
     custPropTabLstMenuItems: |-
         =Table(
             {
-                TabMenuName: "Home",
+                TabMenuName: "🏠 Home",
                 GoToTabMenuScreen: App.ActiveScreen
             }
         )
@@ -30,7 +30,7 @@ cmpntTabMenu As CanvasComponent:
         Y: =Parent.Y
         ZIndex: =1
 
-        TabMenuName1 As PowerApps_CoreControls_TabListTemplate_dataField.textualColumn:
+        tabMenuName As PowerApps_CoreControls_TabListTemplate_dataField.textualColumn:
             FieldDisplayName: ="TabMenuName"
             FieldName: ="TabMenuName"
             FieldType: ="s"

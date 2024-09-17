@@ -240,7 +240,7 @@
       "StyleName": "",
       "Type": "ControlInfo"
     },
-    "TabMenuName1": {
+    "tabMenuName": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "FieldName",
@@ -263,7 +263,7 @@
       "IsLocked": true,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "TabMenuName1",
+      "Name": "tabMenuName",
       "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,

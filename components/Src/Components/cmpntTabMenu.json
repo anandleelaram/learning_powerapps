@@ -32,7 +32,7 @@
             "IsLocked": true,
             "LayoutName": "",
             "MetaDataIDKey": "",
-            "Name": "TabMenuName1",
+            "Name": "tabMenuName",
             "OptimizeForDevices": "Off",
             "Parent": "tabLstMenu",
             "PersistMetaDataIDKey": false,
@@ -307,7 +307,7 @@
       },
       "OnReset"
     ],
-    "LastModifiedTimestamp": "638621624432647965",
+    "LastModifiedTimestamp": "638621629706758463",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -324,7 +324,7 @@
       },
       {
         "Category": "Data",
-        "InvariantScript": "Table(\n    {\n        TabMenuName: \"Home\",\n        GoToTabMenuScreen: App.ActiveScreen\n    }\n)",
+        "InvariantScript": "Table(\n    {\n        TabMenuName: \"\uD83C\uDFE0 Home\",\n        GoToTabMenuScreen: App.ActiveScreen\n    }\n)",
         "Property": "custPropTabLstMenuItems",
         "RuleProviderType": "System"
       },
@@ -433,7 +433,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638621624432647965",
+  "LastModifiedTimestamp": "638621629706758463",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"
