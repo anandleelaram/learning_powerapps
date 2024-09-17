@@ -28,14 +28,6 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "Table(\r\n    {\r\n        TabMenuName: \"Home\",\r\n        GoToTabMenuScreen: App.ActiveScreen,\r\n        TabMenuIcon: Icon.Home\r\n    }\r\n)",
-          "InvariantPropertyName": "custPropTabLstMenuItems",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
           "AutoRuleBindingString": "",
           "InvariantPropertyName": "OnReset",
           "IsLockable": false,
@@ -63,11 +55,6 @@
         {
           "Category": "Data",
           "PropertyName": "custPropWidth",
-          "RuleProviderType": "System"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "custPropTabLstMenuItems",
           "RuleProviderType": "System"
         },
         {

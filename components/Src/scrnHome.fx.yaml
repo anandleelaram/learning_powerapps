@@ -1,7 +1,6 @@
 scrnHome As screen:
     OnVisible: |
-        =Reset(cmpntTabMenu_3);
-        ClearCollect(
+        =ClearCollect(
             varMenuData,
             [
                 {

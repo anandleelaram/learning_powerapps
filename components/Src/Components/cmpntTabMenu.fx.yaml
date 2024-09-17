@@ -1,6 +1,5 @@
 cmpntTabMenu As CanvasComponent:
     custPropHeight: =100
-    custPropTabLstMenuItems: =
     custPropWidth: =100
     Fill: =RGBA(0, 0, 0, 0)
     Height: =cmpntTabMenu.custPropHeight
