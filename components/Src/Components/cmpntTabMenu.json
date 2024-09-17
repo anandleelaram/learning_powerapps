@@ -200,7 +200,7 @@
           },
           {
             "Category": "Data",
-            "InvariantScript": "locTab",
+            "InvariantScript": "Filter(cmpntTabMenu.custPropTabLstMenuItems,GoToTabMenuScreen = App.ActiveScreen)",
             "Property": "DefaultSelectedItems",
             "RuleProviderType": "Unknown"
           },
@@ -299,7 +299,7 @@
       },
       "OnReset"
     ],
-    "LastModifiedTimestamp": "638621635780812818",
+    "LastModifiedTimestamp": "638621636189191162",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -410,7 +410,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638621635780812818",
+  "LastModifiedTimestamp": "638621636189191162",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"
