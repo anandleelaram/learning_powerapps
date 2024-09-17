@@ -1,7 +1,6 @@
 cmpntTabMenu As CanvasComponent:
     custPropHeight: =100
-    custPropSelectedItem: |-
-        ={SampleStringField: "SampleText", SampleNumberField: 10, SampleBooleanField: true}
+    custPropSelectedItem: =locTab
     custPropTabLstMenuItems: |-
         =Table(
             {
