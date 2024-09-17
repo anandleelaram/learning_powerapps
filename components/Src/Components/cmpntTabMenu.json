@@ -304,9 +304,10 @@
         "InvariantPropertyName": "custPropDefaultSelectedItems",
         "IsLockable": false,
         "NameMapSourceSchema": "?"
-      }
+      },
+      "OnReset"
     ],
-    "LastModifiedTimestamp": "638621560627112360",
+    "LastModifiedTimestamp": "638621620425181101",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -368,6 +369,12 @@
         "InvariantScript": "1",
         "Property": "ZIndex",
         "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Behavior",
+        "InvariantScript": "",
+        "Property": "OnReset",
+        "RuleProviderType": "System"
       }
     ]
   },
@@ -426,7 +433,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638621560627112360",
+  "LastModifiedTimestamp": "638621620425181101",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"
