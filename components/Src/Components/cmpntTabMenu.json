@@ -306,7 +306,7 @@
       },
       "OnReset"
     ],
-    "LastModifiedTimestamp": "638621661915440559",
+    "LastModifiedTimestamp": "638621662291543097",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -323,7 +323,7 @@
       },
       {
         "Category": "Data",
-        "InvariantScript": "{\n    TabMenuName: \"\uD83C\uDFE0 Home\",\n    GoToTabMenuScreen: App.ActiveScreen\n}",
+        "InvariantScript": "Table({\n    TabMenuName: \"\uD83C\uDFE0 Home\",\n    GoToTabMenuScreen: App.ActiveScreen\n})",
         "Property": "custPropTabLstMenuItems",
         "RuleProviderType": "System"
       },
@@ -417,7 +417,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638621661915440559",
+  "LastModifiedTimestamp": "638621662291543097",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"
