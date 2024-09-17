@@ -4,11 +4,11 @@ scrnHome As screen:
             varMenuData,
             [
                 {
-                    TabMenuName: "Home",
+                    TabMenuName: "🏠 Home",
                     GoToTabMenuScreen: scrnHome
                 },
                 {
-                    TabMenuName: "About",
+                    TabMenuName: "ℹ️ About",
                     GoToTabMenuScreen: scrnAbout
                 }
             ]
