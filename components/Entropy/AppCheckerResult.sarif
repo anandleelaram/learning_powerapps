@@ -54,46 +54,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "scrnHome.cmpntTabMenu_3.custPropSetSelectedMenu"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "scrnHome.cmpntTabMenu_3.custPropSetSelectedMenu",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "varSelectedMenuItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "custPropSetSelectedMenu",
-                "module": "scrnHome",
-                "type": "scrnHome.cmpntTabMenu_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "varSelectedMenuItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "cmpntTabMenu.tabLstMenu.AccessibleLabel"
                 }
               ],
