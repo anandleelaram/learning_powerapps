@@ -1,6 +1,7 @@
 scrnHome As screen:
     OnVisible: |-
-        =ClearCollect(
+        =ClearCollect(varMenuData, Blank());
+        ClearCollect(
             varMenuData,
             [
                 {
