@@ -1,28 +1,15 @@
 scrnHome As screen:
     OnVisible: |
         =Set(
-            varMenuData,
-            Table(
-                {
-                    TabMenuName: "Home",
-                    GoToTabMenuScreen: scrnHome
-                },
-                {
-                    TabMenuName: "About",
-                    GoToTabMenuScreen: scrnAbout
-                }
-            )
-        );
-        Set(
             varSelectedMenuItem,
             cmpntTabMenu_1.custPropSelectedMenu
-        );
+        )
 
     cmpntTabMenu_3 As cmpntTabMenu:
         custPropSetSelectedMenu: =varSelectedMenuItem
         custPropTabLstMenuItems: =varMenuData
-        Height: =cmpntTabMenu_3.custPropHeight
-        Width: =444
+        Height: =96
+        Width: =640
         ZIndex: =2
 
     TextCanvas1 As Text:
