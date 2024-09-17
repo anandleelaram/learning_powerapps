@@ -1,5 +1,5 @@
 scrnAbout As screen:
-    OnVisible: =Reset(cmpntTabMenu_1)
+    OnVisible: =
 
     cmpntTabMenu_1 As cmpntTabMenu:
         custPropTabLstMenuItems: =varMenuData
