@@ -296,9 +296,17 @@
       "ZIndex",
       "custPropHeight",
       "custPropWidth",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "custPropTabLstMenuItems",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "OnReset"
     ],
-    "LastModifiedTimestamp": "638621659460135396",
+    "LastModifiedTimestamp": "638621661915440559",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -311,6 +319,12 @@
         "Category": "Data",
         "InvariantScript": "100",
         "Property": "custPropWidth",
+        "RuleProviderType": "System"
+      },
+      {
+        "Category": "Data",
+        "InvariantScript": "{\n    TabMenuName: \"\uD83C\uDFE0 Home\",\n    GoToTabMenuScreen: App.ActiveScreen\n}",
+        "Property": "custPropTabLstMenuItems",
         "RuleProviderType": "System"
       },
       {
@@ -403,7 +417,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638621659460135396",
+  "LastModifiedTimestamp": "638621661915440559",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"

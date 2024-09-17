@@ -1,5 +1,10 @@
 cmpntTabMenu As CanvasComponent:
     custPropHeight: =100
+    custPropTabLstMenuItems: |-
+        ={
+            TabMenuName: "🏠 Home",
+            GoToTabMenuScreen: App.ActiveScreen
+        }
     custPropWidth: =100
     Fill: =RGBA(0, 0, 0, 0)
     Height: =cmpntTabMenu.custPropHeight
