@@ -1,5 +1,4 @@
 cmpntTabMenu As CanvasComponent:
-    custPropCurrentItem: ="Text"
     custPropHeight: =100
     custPropTabLstMenuItems: |-
         =Table({
