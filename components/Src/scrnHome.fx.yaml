@@ -1,5 +1,5 @@
 scrnHome As screen:
-    OnVisible: |
+    OnVisible: |-
         =ClearCollect(
             varMenuData,
             [
@@ -12,10 +12,10 @@ scrnHome As screen:
                     GoToTabMenuScreen: scrnAbout
                 }
             ]
-        );
+        )
 
     cmpntTabMenu_3 As cmpntTabMenu:
-        custPropTabLstMenuItems: =varMenuData
+        custPropTabLstMenuItems: =
         Height: =96
         OnReset: =Set(locTab, First(Filter(cmpntTabMenu_3.custPropTabLstMenuItems,GoToTabMenuScreen = App.ActiveScreen)))
         Width: =640
