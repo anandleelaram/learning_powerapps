@@ -10,14 +10,7 @@
         "BackEnabled",
         "Theme",
         "Formulas",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "OnStart",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "OnStart",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,

@@ -1,20 +1,7 @@
 App As appinfo:
     BackEnabled: =true
     Formulas: =
-    OnStart: |-
-        =ClearCollect(
-            varMenuData,
-            [
-                {
-                    TabMenuName: "Home",
-                    GoToTabMenuScreen: scrnHome
-                },
-                {
-                    TabMenuName: "About",
-                    GoToTabMenuScreen: scrnAbout
-                }
-            ]
-        );
+    OnStart: =
     StartScreen: =scrnHome
     Theme: =PowerAppsTheme
 

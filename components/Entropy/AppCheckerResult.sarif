@@ -14,6 +14,86 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "scrnAbout.cmpntTabMenu_1.custPropTabLstMenuItems"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "scrnAbout.cmpntTabMenu_1.custPropTabLstMenuItems",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "varMenuData"
+                  }
+                }
+              },
+              "properties": {
+                "member": "custPropTabLstMenuItems",
+                "module": "scrnAbout",
+                "type": "scrnAbout.cmpntTabMenu_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "varMenuData"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "scrnHome.cmpntTabMenu_3.custPropTabLstMenuItems"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "scrnHome.cmpntTabMenu_3.custPropTabLstMenuItems",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "varMenuData"
+                  }
+                }
+              },
+              "properties": {
+                "member": "custPropTabLstMenuItems",
+                "module": "scrnHome",
+                "type": "scrnHome.cmpntTabMenu_3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "varMenuData"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "cmpntTabMenu.tabLstMenu.AccessibleLabel"
                 }
               ],
@@ -37,7 +117,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 1
         }
       ],
       "tool": {
@@ -45,6 +125,23 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
+            {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
             {
               "id": "acc-AccessibleLabelNeeded",
               "messageStrings": {
