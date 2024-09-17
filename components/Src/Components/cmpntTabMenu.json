@@ -167,7 +167,14 @@
             "IsLockable": false,
             "NameMapSourceSchema": "?"
           },
-          "DefaultSelectedItems"
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "DefaultSelectedItems",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          }
         ],
         "ControlUniqueId": "5",
         "HasDynamicProperties": false,
@@ -193,7 +200,7 @@
           },
           {
             "Category": "Data",
-            "InvariantScript": "",
+            "InvariantScript": "cmpntTabMenu.custPropDefaultSelectedItems",
             "Property": "DefaultSelectedItems",
             "RuleProviderType": "Unknown"
           },
@@ -299,7 +306,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638621560264410560",
+    "LastModifiedTimestamp": "638621560627112360",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -419,7 +426,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638621560264410560",
+  "LastModifiedTimestamp": "638621560627112360",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"
