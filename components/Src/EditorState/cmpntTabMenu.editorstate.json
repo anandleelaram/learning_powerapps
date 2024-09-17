@@ -30,7 +30,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "{SampleStringField: \"SampleText\", SampleNumberField: 10, SampleBooleanField: true}",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "custPropCurrentItem",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
