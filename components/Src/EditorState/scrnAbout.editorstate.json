@@ -80,7 +80,7 @@
         {
           "Category": "Data",
           "PropertyName": "custPropCurrentItem",
-          "RuleProviderType": "System"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Design",

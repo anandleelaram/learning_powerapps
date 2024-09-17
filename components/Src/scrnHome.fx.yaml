@@ -15,6 +15,7 @@ scrnHome As screen:
         );
 
     cmpntTabMenu_3 As cmpntTabMenu:
+        custPropCurrentItem: ="🏠 Home"
         custPropTabLstMenuItems: =varMenuData
         Height: =96
         Width: =640
