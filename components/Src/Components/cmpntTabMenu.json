@@ -249,7 +249,7 @@
           },
           {
             "Category": "Behavior",
-            "InvariantScript": "Set(locTab, Self.Selected)",
+            "InvariantScript": "",
             "Property": "OnChange",
             "RuleProviderType": "User"
           }
@@ -306,7 +306,7 @@
       },
       "OnReset"
     ],
-    "LastModifiedTimestamp": "638621648362136869",
+    "LastModifiedTimestamp": "638621648805126924",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -417,7 +417,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638621648362136869",
+  "LastModifiedTimestamp": "638621648805126924",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"
