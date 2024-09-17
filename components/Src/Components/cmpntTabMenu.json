@@ -250,7 +250,7 @@
           },
           {
             "Category": "Behavior",
-            "InvariantScript": "Navigate(tabLstMenu.Selected.GoToTabMenuScreen, ScreenTransition.None)\n",
+            "InvariantScript": "Set(locTab, First(Filter(cmpntTabMenu.custPropTabLstMenuItems,GoToTabMenuScreen = App.ActiveScreen)));\nNavigate(tabLstMenu.Selected.GoToTabMenuScreen, ScreenTransition.None)\n",
             "Property": "OnSelect",
             "RuleProviderType": "User"
           },
@@ -303,16 +303,9 @@
       "ZIndex",
       "custPropHeight",
       "custPropWidth",
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "",
-        "InvariantPropertyName": "OnReset",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      }
+      "OnReset"
     ],
-    "LastModifiedTimestamp": "638621656855500064",
+    "LastModifiedTimestamp": "638621658771412528",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -365,7 +358,7 @@
       },
       {
         "Category": "Behavior",
-        "InvariantScript": "Set(locTab, First(Filter(cmpntTabMenu.custPropTabLstMenuItems,GoToTabMenuScreen = App.ActiveScreen)))",
+        "InvariantScript": "",
         "Property": "OnReset",
         "RuleProviderType": "System"
       }
@@ -403,7 +396,6 @@
       "Category": 0,
       "DisplayName": "custPropTabLstMenuItems",
       "Hidden": false,
-      "IsResettable": true,
       "Name": "custPropTabLstMenuItems",
       "PropertyDataTypeKey": "Table",
       "Tooltip": "A custom property",
@@ -418,7 +410,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638621656855500064",
+  "LastModifiedTimestamp": "638621658771412528",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"
