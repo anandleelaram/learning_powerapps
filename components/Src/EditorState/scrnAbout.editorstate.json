@@ -32,15 +32,6 @@
           "InvariantPropertyName": "custPropTabLstMenuItems",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        },
-        "custPropSelectedMenu",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "{SampleStringField: \"SampleText\", SampleNumberField: 10, SampleBooleanField: true}",
-          "InvariantPropertyName": "custPropSetSelectedMenu",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
         }
       ],
       "HasDynamicProperties": false,
@@ -75,16 +66,6 @@
         {
           "Category": "Data",
           "PropertyName": "custPropTabLstMenuItems",
-          "RuleProviderType": "User"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "custPropSelectedMenu",
-          "RuleProviderType": "System"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "custPropSetSelectedMenu",
           "RuleProviderType": "User"
         },
         {
