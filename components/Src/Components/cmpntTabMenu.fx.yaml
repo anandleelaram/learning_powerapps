@@ -9,16 +9,7 @@ cmpntTabMenu As CanvasComponent:
     custPropWidth: =100
     Fill: =RGBA(0, 0, 0, 0)
     Height: =cmpntTabMenu.custPropHeight
-    OnReset: |-
-        =Set(
-            locTab,
-            First(
-                Filter(
-                    cmpntTabMenu.custPropTabLstMenuItems,
-                    GoToTabMenuScreen = App.ActiveScreen
-                )
-            )
-        )
+    OnReset: =
     Width: =cmpntTabMenu.custPropWidth
     X: =0
     Y: =0
