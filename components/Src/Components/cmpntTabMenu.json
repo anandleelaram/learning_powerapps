@@ -208,7 +208,7 @@
           },
           {
             "Category": "Data",
-            "InvariantScript": "Blank()",
+            "InvariantScript": "First(Filter(cmpntTabMenu.custPropTabLstMenuItems,GoToTabMenuScreen = App.ActiveScreen))",
             "Property": "DefaultSelectedItems",
             "RuleProviderType": "Unknown"
           },
@@ -313,7 +313,7 @@
       },
       "OnReset"
     ],
-    "LastModifiedTimestamp": "638621649788382591",
+    "LastModifiedTimestamp": "638621650635245080",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -424,7 +424,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638621649788382591",
+  "LastModifiedTimestamp": "638621650635245080",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"
