@@ -305,9 +305,16 @@
         "IsLockable": false,
         "NameMapSourceSchema": "?"
       },
-      "OnReset"
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "OnReset",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      }
     ],
-    "LastModifiedTimestamp": "638621632504330601",
+    "LastModifiedTimestamp": "638621633210515663",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -372,7 +379,7 @@
       },
       {
         "Category": "Behavior",
-        "InvariantScript": "",
+        "InvariantScript": "Set(\n    locTab,\n    {\n        TabMenuName: \"Home\",\n        GoToTabMenuScreen: App.ActiveScreen\n    }\n)",
         "Property": "OnReset",
         "RuleProviderType": "System"
       }
@@ -433,7 +440,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638621632504330601",
+  "LastModifiedTimestamp": "638621633210515663",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"
