@@ -1,5 +1,5 @@
 scrnAbout As screen:
-    OnVisible: =
+    OnVisible: =Reset(cmpntTabMenu_1)
 
     cmpntTabMenu_1 As cmpntTabMenu:
         Height: =cmpntTabMenu_1.custPropHeight
