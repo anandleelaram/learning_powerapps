@@ -4,6 +4,7 @@ scrnAbout As screen:
     cmpntTabMenu_1 As cmpntTabMenu:
         custPropTabLstMenuItems: =varMenuData
         Height: =cmpntTabMenu_1.custPropHeight
+        OnReset: =Set(locTab, First(Filter(cmpntTabMenu_1.custPropTabLstMenuItems,GoToTabMenuScreen = App.ActiveScreen)))
         Width: =521
 
     TextCanvas1_1 As Text:
