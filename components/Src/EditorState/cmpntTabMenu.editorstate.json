@@ -36,14 +36,6 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "loc",
-          "InvariantPropertyName": "custPropSelectedItem",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
           "AutoRuleBindingString": "",
           "InvariantPropertyName": "OnReset",
           "IsLockable": false,
@@ -76,11 +68,6 @@
         {
           "Category": "Data",
           "PropertyName": "custPropTabLstMenuItems",
-          "RuleProviderType": "System"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "custPropSelectedItem",
           "RuleProviderType": "System"
         },
         {

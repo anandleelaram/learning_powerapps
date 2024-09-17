@@ -33,7 +33,6 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "custPropSelectedItem",
         "OnReset"
       ],
       "HasDynamicProperties": false,
@@ -69,11 +68,6 @@
           "Category": "Data",
           "PropertyName": "custPropTabLstMenuItems",
           "RuleProviderType": "User"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "custPropSelectedItem",
-          "RuleProviderType": "System"
         },
         {
           "Category": "Design",
