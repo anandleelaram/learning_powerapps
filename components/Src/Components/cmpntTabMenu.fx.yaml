@@ -1,4 +1,5 @@
 cmpntTabMenu As CanvasComponent:
+    custPropCurrentItem: =
     custPropHeight: =100
     custPropTabLstMenuItems: |-
         =Table({
@@ -24,18 +25,7 @@ cmpntTabMenu As CanvasComponent:
     ZIndex: =1
 
     "tabLstMenu As 'Tab list'.pcfdataset":
-        DefaultSelectedItems: |-
-            =If(
-                Self.Selected.GoToTabMenuScreen = App.ActiveScreen,
-                First(
-                    Filter(
-                        cmpntTabMenu.custPropTabLstMenuItems,
-                        GoToTabMenuScreen = App.ActiveScreen
-                    
-                    )
-                ),
-                
-            )
+        DefaultSelectedItems: =cmpntTabMenu.custPropCurrentItem
         DisplayMode: =DisplayMode.Edit
         Height: =Parent.Height
         Items: =cmpntTabMenu.custPropTabLstMenuItems
