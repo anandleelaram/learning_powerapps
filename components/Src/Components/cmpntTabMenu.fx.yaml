@@ -15,7 +15,7 @@ cmpntTabMenu As CanvasComponent:
         =Set(
             locTab,
             {
-                TabMenuName: "Home",
+                TabMenuName: "🏠 Home",
                 GoToTabMenuScreen: App.ActiveScreen
             }
         )
