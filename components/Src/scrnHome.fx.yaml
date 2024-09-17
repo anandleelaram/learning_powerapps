@@ -18,7 +18,16 @@ scrnHome As screen:
     cmpntTabMenu_3 As cmpntTabMenu:
         custPropTabLstMenuItems: =varMenuData
         Height: =96
-        OnReset: =Set(locTab, First(Filter(cmpntTabMenu_3.custPropTabLstMenuItems,GoToTabMenuScreen = App.ActiveScreen)))
+        OnReset: |-
+            =Set(
+                locTab,
+                First(
+                    Filter(
+                        cmpntTabMenu_3.custPropTabLstMenuItems,
+                        GoToTabMenuScreen = App.ActiveScreen
+                    )
+                )
+            )
         Width: =640
         ZIndex: =2
 
