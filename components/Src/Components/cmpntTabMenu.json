@@ -296,17 +296,17 @@
       "ZIndex",
       "custPropHeight",
       "custPropWidth",
+      "custPropTabLstMenuItems",
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
         "AutoRuleBindingString": "",
-        "InvariantPropertyName": "custPropTabLstMenuItems",
+        "InvariantPropertyName": "OnReset",
         "IsLockable": false,
         "NameMapSourceSchema": "?"
-      },
-      "OnReset"
+      }
     ],
-    "LastModifiedTimestamp": "638621662291543097",
+    "LastModifiedTimestamp": "638621663530870518",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -365,7 +365,7 @@
       },
       {
         "Category": "Behavior",
-        "InvariantScript": "",
+        "InvariantScript": "Set(locTab, First(Filter(cmpntTabMenu.custPropTabLstMenuItems,GoToTabMenuScreen = App.ActiveScreen)))",
         "Property": "OnReset",
         "RuleProviderType": "System"
       }
@@ -403,6 +403,7 @@
       "Category": 0,
       "DisplayName": "custPropTabLstMenuItems",
       "Hidden": false,
+      "IsResettable": true,
       "Name": "custPropTabLstMenuItems",
       "PropertyDataTypeKey": "Table",
       "Tooltip": "A custom property",
@@ -417,7 +418,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638621662291543097",
+  "LastModifiedTimestamp": "638621663530870518",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"
