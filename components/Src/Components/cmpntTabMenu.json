@@ -314,7 +314,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638621477243180068",
+    "LastModifiedTimestamp": "638621553761218835",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -343,7 +343,7 @@
       },
       {
         "Category": "Data",
-        "InvariantScript": "  {\n        TabMenuName: \"Home\",\n        GoToTabMenuScreen: App.ActiveScreen\n    }",
+        "InvariantScript": "{\n    TabMenuName: \"Home\",\n    GoToTabMenuScreen: App.ActiveScreen\n}",
         "Property": "custPropSetSelectedMenu",
         "RuleProviderType": "System"
       },
@@ -449,7 +449,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638621477243180068",
+  "LastModifiedTimestamp": "638621553761218835",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"
