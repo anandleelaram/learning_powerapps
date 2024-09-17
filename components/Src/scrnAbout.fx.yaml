@@ -1,5 +1,19 @@
 scrnAbout As screen:
-    OnVisible: =
+    OnVisible: |-
+        =ClearCollect(varMenuData, Blank());
+        ClearCollect(
+            varMenuData,
+            [
+                {
+                    TabMenuName: "🏠 Home",
+                    GoToTabMenuScreen: scrnHome
+                },
+                {
+                    TabMenuName: "ℹ️ About",
+                    GoToTabMenuScreen: scrnAbout
+                }
+            ]
+        );
 
     cmpntTabMenu_1 As cmpntTabMenu:
         custPropTabLstMenuItems: =varMenuData
