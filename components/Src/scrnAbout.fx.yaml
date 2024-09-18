@@ -1,10 +1,19 @@
 scrnAbout As screen:
-    OnHidden: =
-    OnVisible: |-
+    OnHidden: |-
         =Set(
             varSelectedMenuItem,
             cmpntTabMenu_1.custPropSelectedMenu
         )
+    OnVisible: |
+        =Set(
+            varSelectedMenuItem,
+            First(
+                Filter(
+                    varMenuData,
+                    GoToTabMenuScreen = App.ActiveScreen
+                )
+            )
+        );
 
     cmpntTabMenu_1 As cmpntTabMenu:
         custPropSetMenuItem: =varSelectedMenuItem
