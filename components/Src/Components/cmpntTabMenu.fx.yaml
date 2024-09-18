@@ -27,11 +27,7 @@ cmpntTabMenu As CanvasComponent:
                 Self.Selected
             );
         OnSelect: |-
-            =Set(
-                varSelectedItem,
-                Self.Selected
-            );
-            Navigate(
+            =Navigate(
                 tabLstMenu.Selected.GoToTabMenuScreen,
                 ScreenTransition.None
             )
