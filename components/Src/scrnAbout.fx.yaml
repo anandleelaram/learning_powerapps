@@ -20,7 +20,7 @@ scrnAbout As screen:
         DisplayMode: =DisplayMode.Edit
         Height: =93
         Size: =40
-        Text: =First(Filter(varMenuData,GoToTabMenuScreen = App.ActiveScreen)).TabMenuName
+        Text: =cmpntTabMenu_1.custPropSelectedMenu.TabMenuName
         Width: =640
         X: =0
         Y: =350
