@@ -250,7 +250,7 @@
           },
           {
             "Category": "Behavior",
-            "InvariantScript": "Set(varSelectedTab, tabLstMenu.Selected);",
+            "InvariantScript": "",
             "Property": "OnSelect",
             "RuleProviderType": "User"
           },
@@ -306,7 +306,7 @@
       "custPropTabLstMenuItems",
       "OnReset"
     ],
-    "LastModifiedTimestamp": "638622494921286432",
+    "LastModifiedTimestamp": "638622498741314190",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -417,7 +417,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638622494921286432",
+  "LastModifiedTimestamp": "638622498741314190",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"
