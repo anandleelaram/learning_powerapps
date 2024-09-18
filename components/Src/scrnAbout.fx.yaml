@@ -1,7 +1,13 @@
 scrnAbout As screen:
     OnHidden: =false
-    OnVisible: |
-        =false
+    OnVisible: |-
+        =Set(
+            varSelectedTab,
+            {
+                TabMenuName: "ℹ️ About",
+                GoToTabMenuScreen: scrnAbout
+            }
+        )
 
     cmpntTabMenu_2 As cmpntTabMenu:
         custPropTabLstMenuItems: =varMenuData
