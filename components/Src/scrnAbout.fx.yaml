@@ -4,6 +4,7 @@ scrnAbout As screen:
         =false
 
     cmpntTabMenu_2 As cmpntTabMenu:
+        custPropTabLstMenuItems: =
         Height: =110
         Width: =640
 

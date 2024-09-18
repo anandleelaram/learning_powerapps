@@ -18,7 +18,14 @@
         "ZIndex",
         "custPropHeight",
         "custPropWidth",
-        "custPropTabLstMenuItems",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "Table({\n    TabMenuName: \"\uD83C\uDFE0 Home\",\n    GoToTabMenuScreen: App.ActiveScreen\n})",
+          "InvariantPropertyName": "custPropTabLstMenuItems",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "OnReset"
       ],
       "HasDynamicProperties": false,
@@ -53,7 +60,7 @@
         {
           "Category": "Data",
           "PropertyName": "custPropTabLstMenuItems",
-          "RuleProviderType": "System"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Design",
