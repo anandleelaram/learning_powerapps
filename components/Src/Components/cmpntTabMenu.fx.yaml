@@ -21,12 +21,12 @@ cmpntTabMenu As CanvasComponent:
         DisplayMode: =DisplayMode.Edit
         Height: =Parent.Height
         Items: =cmpntTabMenu.custPropTabLstMenuItems
-        OnChange: =
-        OnSelect: |-
+        OnChange: |-
             =Navigate(
                 tabLstMenu.Selected.GoToTabMenuScreen,
                 ScreenTransition.None
             )
+        OnSelect: =
         Width: =Parent.Width
         X: =Parent.X
         Y: =Parent.Y

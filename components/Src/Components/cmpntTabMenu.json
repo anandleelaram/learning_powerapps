@@ -250,13 +250,13 @@
           },
           {
             "Category": "Behavior",
-            "InvariantScript": "Navigate(\n    tabLstMenu.Selected.GoToTabMenuScreen,\n    ScreenTransition.None\n)",
+            "InvariantScript": "",
             "Property": "OnSelect",
             "RuleProviderType": "User"
           },
           {
             "Category": "Behavior",
-            "InvariantScript": "",
+            "InvariantScript": "Navigate(\r\n    tabLstMenu.Selected.GoToTabMenuScreen,\r\n    ScreenTransition.None\r\n)",
             "Property": "OnChange",
             "RuleProviderType": "User"
           }
@@ -322,7 +322,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638622371090892672",
+    "LastModifiedTimestamp": "638622373532497208",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -463,7 +463,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638622371090892672",
+  "LastModifiedTimestamp": "638622373532497208",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"
