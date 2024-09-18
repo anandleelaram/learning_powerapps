@@ -37,7 +37,7 @@ scrnHome As screen:
         DisplayMode: =DisplayMode.Edit
         Height: =77
         Size: =40
-        Text: =cmpntTabMenu_3.custPropSelectedMenu.TabMenuName
+        Text: =cmpntTabMenu_1.custPropSelectedMenu.TabMenuName
         Width: =416
         X: =0
         Y: =338
