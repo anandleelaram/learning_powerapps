@@ -1,6 +1,6 @@
 cmpntTabMenu As CanvasComponent:
     custPropHeight: =100
-    custPropSelectedMenu: =tabLstMenu.Selected
+    custPropSelectedMenu: =varSelectedTab
     custPropSetMenuItem: |-
         ={
             TabMenuName: "🏠 Home",

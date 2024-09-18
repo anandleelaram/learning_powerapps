@@ -322,7 +322,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638622445964131859",
+    "LastModifiedTimestamp": "638622446307257140",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -351,7 +351,7 @@
       },
       {
         "Category": "Data",
-        "InvariantScript": "tabLstMenu.Selected",
+        "InvariantScript": "varSelectedTab",
         "Property": "custPropSelectedMenu",
         "RuleProviderType": "System"
       },
@@ -463,7 +463,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638622445964131859",
+  "LastModifiedTimestamp": "638622446307257140",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"
