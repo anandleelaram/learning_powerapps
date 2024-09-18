@@ -1,5 +1,5 @@
 scrnHome As screen:
-    OnHidden: =ClearCollect(varSelectedMenuItem, cmpntTabMenu_3.custPropSelectedMenu)
+    OnHidden: =Set(varSelectedMenuItem, cmpntTabMenu_3.custPropSelectedMenu)
     OnVisible: |
         =ClearCollect(
             varMenuData,
@@ -14,7 +14,7 @@ scrnHome As screen:
                 }
             ]
         );
-        ClearCollect(
+        Set(
             varSelectedMenuItem,
             First(
                 Filter(
@@ -25,7 +25,7 @@ scrnHome As screen:
         );
 
     cmpntTabMenu_3 As cmpntTabMenu:
-        custPropSetMenuItem: =
+        custPropSetMenuItem: =varSelectedMenuItem
         custPropTabLstMenuItems: =varMenuData
         Height: =96
         Width: =640
