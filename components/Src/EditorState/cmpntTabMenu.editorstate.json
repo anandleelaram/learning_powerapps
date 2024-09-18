@@ -27,6 +27,7 @@
         "custPropWidth",
         "custPropTabLstMenuItems",
         "OnReset",
+        "custPropSetMenuItem",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -62,6 +63,11 @@
         {
           "Category": "Data",
           "PropertyName": "custPropTabLstMenuItems",
+          "RuleProviderType": "System"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "custPropSetMenuItem",
           "RuleProviderType": "System"
         },
         {
