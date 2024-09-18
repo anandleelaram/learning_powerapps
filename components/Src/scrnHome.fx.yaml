@@ -13,7 +13,7 @@ scrnHome As screen:
                 }
             ]
         );
-        Set(varSelectedMenuItem, cmpntTabMenu_3.custPropSelectedMenu);
+        Set(varSelectedMenuItem,First(Filter(varMenuData,GoToTabMenuScreen = App.ActiveScreen)));
 
     cmpntTabMenu_3 As cmpntTabMenu:
         custPropSelectMenu: =varSelectedMenuItem
