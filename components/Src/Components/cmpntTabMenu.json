@@ -208,7 +208,7 @@
           },
           {
             "Category": "Data",
-            "InvariantScript": "First(\n    Filter(\n        cmpntTabMenu.custPropTabLstMenuItems,\n        GoToTabMenuScreen = cmpntTabMenu.custPropSelectedMenu.GoToTabMenuScreen\n    )\n)",
+            "InvariantScript": "cmpntTabMenu.custPropSelectedMenu",
             "Property": "DefaultSelectedItems",
             "RuleProviderType": "Unknown"
           },
@@ -314,7 +314,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638622509590512991",
+    "LastModifiedTimestamp": "638622518621468168",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -337,7 +337,7 @@
       },
       {
         "Category": "Data",
-        "InvariantScript": "First(Filter(cmpntTabMenu.custPropTabLstMenuItems,GoToTabMenuScreen = App.ActiveScreen))",
+        "InvariantScript": "",
         "Property": "custPropSelectedMenu",
         "RuleProviderType": "System"
       },
@@ -440,7 +440,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638622509590512991",
+  "LastModifiedTimestamp": "638622518621468168",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"
