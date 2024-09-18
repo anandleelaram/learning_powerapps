@@ -1,9 +1,5 @@
 scrnHome As screen:
-    OnHidden: |-
-        =Set(
-            varSelectedMenuItem,
-            cmpntTabMenu_3.custPropSelectedMenu
-        )
+    OnHidden: =false
     OnVisible: |+
         =ClearCollect(
             varMenuData,
