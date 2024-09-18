@@ -14,46 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "scrnHome.cmpntTabMenu_3.custPropSetMenuItem"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "scrnHome.cmpntTabMenu_3.custPropSetMenuItem",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "varSelectedMenuItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "custPropSetMenuItem",
-                "module": "scrnHome",
-                "type": "scrnHome.cmpntTabMenu_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "varSelectedMenuItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "scrnAbout.TextCanvas1_3.Text"
                 }
               ],
@@ -168,86 +128,6 @@
           },
           "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "scrnHome.TextCanvas1_2.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "scrnHome.TextCanvas1_2.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "varSelectedMenuItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "scrnHome",
-                "type": "scrnHome.TextCanvas1_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "varSelectedMenuItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "scrnHome.TextCanvas1_2.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "scrnHome.TextCanvas1_2.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 19,
-                  "snippet": {
-                    "text": ".TabMenuName"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "scrnHome",
-                "type": "scrnHome.TextCanvas1_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
         },
         {
           "locations": [

@@ -17,7 +17,7 @@ scrnHome As screen:
         
 
     cmpntTabMenu_3 As cmpntTabMenu:
-        custPropSetMenuItem: =varSelectedMenuItem
+        custPropSetMenuItem: =
         custPropTabLstMenuItems: =varMenuData
         Height: =96
         Width: =640
@@ -37,7 +37,7 @@ scrnHome As screen:
         DisplayMode: =DisplayMode.Edit
         Height: =77
         Size: =40
-        Text: =varSelectedMenuItem.TabMenuName
+        Text: =cmpntTabMenu_3.custPropSelectedMenu.TabMenuName
         Width: =416
         X: =0
         Y: =338
