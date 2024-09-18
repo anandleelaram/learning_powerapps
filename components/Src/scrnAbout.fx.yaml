@@ -1,18 +1,15 @@
 scrnAbout As screen:
     OnHidden: =false
-    OnVisible: |-
+    OnVisible: |
         =Set(
             varSelectedTab,
-            {
-                TabMenuName: "ℹ️ About",
-                GoToTabMenuScreen: scrnAbout
-            }
+            First(
+                Filter(
+                    varMenuData,
+                    GoToTabMenuScreen = scrnAbout
+                )
+            )
         );
-        ClearCollect(varMenuData,     varSelectedTab,
-            {
-                TabMenuName: "🏠 Home",
-                GoToTabMenuScreen: scrnHome
-            });
 
     cmpntTabMenu_2 As cmpntTabMenu:
         custPropSelectedMenu: =First(Filter(cmpntTabMenu_2.custPropTabLstMenuItems,GoToTabMenuScreen = App.ActiveScreen))
