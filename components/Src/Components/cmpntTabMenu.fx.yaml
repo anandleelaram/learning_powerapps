@@ -25,7 +25,7 @@ cmpntTabMenu As CanvasComponent:
                 tabLstMenu.Selected.GoToTabMenuScreen,
                 ScreenTransition.None
             );
-        OnSelect: =
+        OnSelect: =false
         Width: =Parent.Width
         X: =Parent.X
         Y: =Parent.Y
