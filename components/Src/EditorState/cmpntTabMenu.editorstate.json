@@ -154,7 +154,14 @@
         "DisplayMode",
         "ZIndex",
         "OnSelect",
-        "DefaultSelectedItems",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "DefaultSelectedItems",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
