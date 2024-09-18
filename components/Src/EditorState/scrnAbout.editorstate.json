@@ -34,7 +34,14 @@
           "NameMapSourceSchema": "?"
         },
         "OnReset",
-        "custPropSetMenuItem",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "{\n    TabMenuName: \"\uD83C\uDFE0 Home\",\n    GoToTabMenuScreen: App.ActiveScreen\n}",
+          "InvariantPropertyName": "custPropSetMenuItem",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "custPropSelectedMenu"
       ],
       "HasDynamicProperties": false,
@@ -74,7 +81,7 @@
         {
           "Category": "Data",
           "PropertyName": "custPropSetMenuItem",
-          "RuleProviderType": "System"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",

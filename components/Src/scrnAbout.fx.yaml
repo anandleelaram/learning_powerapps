@@ -2,6 +2,7 @@ scrnAbout As screen:
     OnVisible: =
 
     cmpntTabMenu_1 As cmpntTabMenu:
+        custPropSetMenuItem: =varSelectedMenuItem
         custPropTabLstMenuItems: =varMenuData
         Height: =116
         Width: =521
