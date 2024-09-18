@@ -1,6 +1,6 @@
 scrnHome As screen:
     OnHidden: =Set(varSelectedMenuItem, cmpntTabMenu_3.custPropSelectedMenu)
-    OnVisible: |
+    OnVisible: |-
         =ClearCollect(
             varMenuData,
             [
@@ -14,6 +14,7 @@ scrnHome As screen:
                 }
             ]
         );
+        ClearCollect(varSelectedMenuItem, First(Filter(varMenuData,GoToTabMenuScreen = App.ActiveScreen)));
 
     cmpntTabMenu_3 As cmpntTabMenu:
         custPropTabLstMenuItems: =varMenuData
