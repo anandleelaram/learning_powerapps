@@ -16,7 +16,7 @@ scrnHome As screen:
         );
 
     cmpntTabMenu_1 As cmpntTabMenu:
-        custPropTabLstMenuItems: =
+        custPropTabLstMenuItems: =varMenuData
         Height: =103
         Width: =640
 
