@@ -14,36 +14,4 @@ scrnHome As screen:
                 }
             ]
         );
-        Set(varSelectedMenu, cmpntTabMenu_3.custPropSelectedMenu);
-
-    cmpntTabMenu_3 As cmpntTabMenu:
-        custPropSetMenuItem: |-
-            ={
-                        TabMenuName: "🏠 Home",
-                        GoToTabMenuScreen: scrnHome
-                    }
-        custPropTabLstMenuItems: =varMenuData
-        Height: =96
-        Width: =640
-        ZIndex: =2
-
-    TextCanvas1 As Text:
-        DisplayMode: =DisplayMode.Edit
-        Height: =77
-        Size: =40
-        Text: ="Home"
-        Width: =416
-        X: =0
-        Y: =122
-        ZIndex: =3
-
-    TextCanvas1_2 As Text:
-        DisplayMode: =DisplayMode.Edit
-        Height: =77
-        Size: =40
-        Text: =cmpntTabMenu_1.custPropSelectedMenu.TabMenuName
-        Width: =416
-        X: =0
-        Y: =338
-        ZIndex: =4
 
