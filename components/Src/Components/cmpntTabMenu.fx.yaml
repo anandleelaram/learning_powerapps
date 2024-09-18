@@ -30,8 +30,15 @@ cmpntTabMenu As CanvasComponent:
         Height: =Parent.Height
         Items: =cmpntTabMenu.custPropTabLstMenuItems
         OnChange: =false
-        OnSelect: |
-            =Navigate(tabLstMenu.Selected.GoToTabMenuScreen, ScreenTransition.None)
+        OnSelect: |-
+            =Set(
+                varSelectedItem,
+                Self.Selected
+            );
+            Navigate(
+                tabLstMenu.Selected.GoToTabMenuScreen,
+                ScreenTransition.None
+            )
         Width: =Parent.Width
         X: =Parent.X
         Y: =Parent.Y
