@@ -256,7 +256,7 @@
           },
           {
             "Category": "Behavior",
-            "InvariantScript": "Set(\r\n    varSelectedItem,\r\n    Self.Selected\r\n);",
+            "InvariantScript": "",
             "Property": "OnChange",
             "RuleProviderType": "User"
           }
@@ -322,7 +322,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638622370377706226",
+    "LastModifiedTimestamp": "638622371090892672",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -463,7 +463,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638622370377706226",
+  "LastModifiedTimestamp": "638622371090892672",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"
