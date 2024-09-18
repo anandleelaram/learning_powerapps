@@ -201,7 +201,7 @@
           },
           {
             "Category": "Data",
-            "InvariantScript": "Blank()",
+            "InvariantScript": "If(varSelectedItem = Blank(), Blank(), varSelectedItem)",
             "Property": "DefaultSelectedItems",
             "RuleProviderType": "Unknown"
           },
@@ -315,7 +315,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638622245145869199",
+    "LastModifiedTimestamp": "638622245581701209",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -456,7 +456,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638622245145869199",
+  "LastModifiedTimestamp": "638622245581701209",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"
