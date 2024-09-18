@@ -1,6 +1,6 @@
 cmpntTabMenu As CanvasComponent:
     custPropHeight: =100
-    custPropSelectedMenu: =
+    custPropSelectedMenu: =First(Filter(cmpntTabMenu.custPropTabLstMenuItems,GoToTabMenuScreen = App.ActiveScreen))
     custPropTabLstMenuItems: |-
         =Table({
             TabMenuName: "🏠 Home",

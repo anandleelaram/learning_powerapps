@@ -10,6 +10,7 @@ scrnAbout As screen:
         )
 
     cmpntTabMenu_2 As cmpntTabMenu:
+        custPropSelectedMenu: =First(Filter(cmpntTabMenu_2.custPropTabLstMenuItems,GoToTabMenuScreen = App.ActiveScreen))
         custPropTabLstMenuItems: =varMenuData
         Height: =110
         Width: =640

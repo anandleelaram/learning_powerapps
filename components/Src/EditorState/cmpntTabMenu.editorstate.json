@@ -30,7 +30,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "{SampleStringField: \"SampleText\", SampleNumberField: 10, SampleBooleanField: true}",
+          "AutoRuleBindingString": "First(Filter(cmpntTabMenu.custPropTabLstMenuItems,GoToTabMenuScreen = App.ActiveScreen)",
           "InvariantPropertyName": "custPropSelectedMenu",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
