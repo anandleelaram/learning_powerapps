@@ -22,3 +22,13 @@ scrnAbout As screen:
         Y: =186
         ZIndex: =2
 
+    TextCanvas1_3 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =93
+        Size: =40
+        Text: =varSelectedMenuItem.TabMenuName
+        Width: =640
+        X: =0
+        Y: =382
+        ZIndex: =3
+
