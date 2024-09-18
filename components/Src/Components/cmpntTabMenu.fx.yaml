@@ -23,7 +23,7 @@ cmpntTabMenu As CanvasComponent:
     "tabLstMenu As 'Tab list'.pcfdataset":
         DefaultSelectedItems: =cmpntTabMenu.custPropSetMenuItem
         DisplayMode: =DisplayMode.Edit
-        Height: =45
+        Height: =Parent.Height
         Items: =cmpntTabMenu.custPropTabLstMenuItems
         OnChange: =
         OnSelect: |-
@@ -43,15 +43,4 @@ cmpntTabMenu As CanvasComponent:
             FieldVariantName: ="textualColumn"
             Order: =1
             ZIndex: =1
-
-    TextCanvas2 As Text:
-        DisplayMode: =DisplayMode.Edit
-        Height: =32
-        Size: =30
-        Text: =cmpntTabMenu.custPropSetMenuItem.TabMenuName
-        Weight: ='TextCanvas.Weight'.Bold
-        Width: =96
-        X: =0
-        Y: =68
-        ZIndex: =2
 
