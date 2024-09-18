@@ -16,13 +16,3 @@ scrnAbout As screen:
         Y: =186
         ZIndex: =2
 
-    TextCanvas1_3 As Text:
-        DisplayMode: =DisplayMode.Edit
-        Height: =93
-        Size: =40
-        Text: =cmpntTabMenu_1.custPropSelectedMenu.TabMenuName
-        Width: =640
-        X: =0
-        Y: =350
-        ZIndex: =3
-
