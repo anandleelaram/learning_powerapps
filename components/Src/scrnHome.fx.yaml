@@ -45,3 +45,13 @@ scrnHome As screen:
         Y: =122
         ZIndex: =3
 
+    TextCanvas1_2 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =77
+        Size: =40
+        Text: =varSelectedMenuItem.TabMenuName
+        Width: =416
+        X: =0
+        Y: =338
+        ZIndex: =4
+
