@@ -20,7 +20,11 @@ cmpntTabMenu As CanvasComponent:
         DisplayMode: =DisplayMode.Edit
         Height: =Parent.Height
         Items: =cmpntTabMenu.custPropTabLstMenuItems
-        OnChange: =false
+        OnChange: |-
+            =Set(
+                varSelectedItem,
+                Self.Selected
+            );
         OnSelect: |-
             =Set(
                 varSelectedItem,
