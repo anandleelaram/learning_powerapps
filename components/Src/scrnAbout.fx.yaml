@@ -4,7 +4,11 @@ scrnAbout As screen:
         =false
 
     cmpntTabMenu_1 As cmpntTabMenu:
-        custPropSetMenuItem: =varSelectedMenu
+        custPropSetMenuItem: |-
+            ={
+                TabMenuName: "ℹ️ About",
+                GoToTabMenuScreen: scrnAbout
+            }
         custPropTabLstMenuItems: =varMenuData
         Height: =116
         Width: =521
