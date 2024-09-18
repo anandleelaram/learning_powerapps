@@ -5,6 +5,10 @@ scrnHome As screen:
             varMenuData,
             [
                 {
+                    TabMenuName: "🏠 Home",
+                    GoToTabMenuScreen: scrnHome
+                },
+                {
                     TabMenuName: "ℹ️ About",
                     GoToTabMenuScreen: scrnAbout
                 }
@@ -12,10 +16,7 @@ scrnHome As screen:
         );
         Set(
             varSelectedTab,
-            {
-                TabMenuName: "🏠 Home",
-                GoToTabMenuScreen: scrnHome
-            }
+            First(cmpntTabMenu_1.custPropTabLstMenuItems)
         );
 
     cmpntTabMenu_1 As cmpntTabMenu:
