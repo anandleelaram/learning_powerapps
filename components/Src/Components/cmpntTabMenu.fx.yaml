@@ -25,7 +25,7 @@ cmpntTabMenu As CanvasComponent:
     ZIndex: =1
 
     "tabLstMenu As 'Tab list'.pcfdataset":
-        DefaultSelectedItems: =If(varSelectedItem = Blank(), Blank(), varSelectedItem)
+        DefaultSelectedItems: =If(IsBlank(varSelectedItem), Blank(), varSelectedItem)
         DisplayMode: =DisplayMode.Edit
         Height: =Parent.Height
         Items: =cmpntTabMenu.custPropTabLstMenuItems
