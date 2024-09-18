@@ -47,7 +47,9 @@ cmpntTabMenu As CanvasComponent:
     TextCanvas2 As Text:
         DisplayMode: =DisplayMode.Edit
         Height: =32
+        Size: =30
         Text: =cmpntTabMenu.custPropSetMenuItem.TabMenuName
+        Weight: ='TextCanvas.Weight'.Bold
         Width: =96
         X: =0
         Y: =68

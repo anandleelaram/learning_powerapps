@@ -21,6 +21,22 @@
             "InvariantPropertyName": "Text",
             "IsLockable": false,
             "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "Size",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "Weight",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
           }
         ],
         "ControlUniqueId": "18",
@@ -44,6 +60,18 @@
             "InvariantScript": "cmpntTabMenu.custPropSetMenuItem.TabMenuName",
             "Property": "Text",
             "RuleProviderType": "User"
+          },
+          {
+            "Category": "Data",
+            "InvariantScript": "30",
+            "Property": "Size",
+            "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Data",
+            "InvariantScript": "'TextCanvas.Weight'.Bold",
+            "Property": "Weight",
+            "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
@@ -418,7 +446,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638622400759761510",
+    "LastModifiedTimestamp": "638622401010260807",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -559,7 +587,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638622400759761510",
+  "LastModifiedTimestamp": "638622401010260807",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"
