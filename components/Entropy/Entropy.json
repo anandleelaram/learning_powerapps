@@ -8,19 +8,19 @@
   "ControlUniqueIds": {
     "App": 1,
     "cmpntTabMenu": 4,
-    "cmpntTabMenu_1": 8,
-    "cmpntTabMenu_3": 11,
+    "cmpntTabMenu_1": 11,
+    "cmpntTabMenu_3": 8,
     "Host": 3,
-    "scrnAbout": 7,
-    "scrnHome": 10,
+    "scrnAbout": 10,
+    "scrnHome": 7,
     "tabLstMenu": 5,
     "tabMenuName": 6,
-    "TextCanvas1": 12,
-    "TextCanvas1_1": 9
+    "TextCanvas1": 9,
+    "TextCanvas1_1": 12
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/17/2024 12:37:31",
+  "HeaderLastSavedDateTimeUTC": "09/18/2024 02:45:49",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
@@ -117,7 +117,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.2122201,
+    "AnalysisLoadTime": 0.1202908,
     "ControlCount": {
       "79798e8da60240c0b23011c79c8f4f01": 3,
       "PowerApps_CoreControls_TabList": 1,
@@ -125,7 +125,7 @@
       "PowerApps_CoreControls_TextCanvas": 2,
       "screen": 2
     },
-    "DeserializationLoadTime": 1.686644
+    "DeserializationLoadTime": 1.9140931
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
