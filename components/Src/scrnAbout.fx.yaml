@@ -3,16 +3,26 @@ scrnAbout As screen:
 
     cmpntTabMenu_1 As cmpntTabMenu:
         custPropTabLstMenuItems: =varMenuData
-        Height: =cmpntTabMenu_1.custPropHeight
+        Height: =116
         Width: =521
 
     TextCanvas1_1 As Text:
         DisplayMode: =DisplayMode.Edit
-        Height: =77
+        Height: =93
         Size: =40
         Text: ="About"
-        Width: =416
-        X: =40
+        Width: =640
+        X: =0
         Y: =186
         ZIndex: =2
+
+    TextCanvas1_3 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =93
+        Size: =40
+        Text: =cmpntTabMenu_1.custPropSelectedMenu.TabMenuName
+        Width: =640
+        X: =0
+        Y: =350
+        ZIndex: =3
 
