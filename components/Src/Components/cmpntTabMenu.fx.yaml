@@ -25,7 +25,7 @@ cmpntTabMenu As CanvasComponent:
             =Navigate(
                 tabLstMenu.Selected.GoToTabMenuScreen,
                 ScreenTransition.None
-            )
+            );
         OnSelect: =
         Width: =Parent.Width
         X: =Parent.X
