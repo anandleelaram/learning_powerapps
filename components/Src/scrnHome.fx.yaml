@@ -26,7 +26,17 @@ scrnHome As screen:
         Size: =40
         Text: ="Home"
         Width: =416
-        X: =40
-        Y: =186
+        X: =0
+        Y: =122
         ZIndex: =3
+
+    TextCanvas1_2 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =77
+        Size: =40
+        Text: =cmpntTabMenu_3.custPropSelectedMenu.TabMenuName
+        Width: =416
+        X: =0
+        Y: =256
+        ZIndex: =4
 
