@@ -27,7 +27,14 @@
         "custPropWidth",
         "custPropTabLstMenuItems",
         "OnReset",
-        "custPropSetMenuItem",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "Blank",
+          "InvariantPropertyName": "custPropSetMenuItem",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
