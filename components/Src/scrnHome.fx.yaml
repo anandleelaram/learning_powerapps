@@ -14,13 +14,6 @@ scrnHome As screen:
                 }
             ]
         );
-        Set(
-            varSelectedMenuItem,
-            {
-                TabMenuName: "🏠 Home",
-                GoToTabMenuScreen: scrnHome
-            }
-        );
 
     cmpntTabMenu_3 As cmpntTabMenu:
         custPropTabLstMenuItems: =varMenuData
