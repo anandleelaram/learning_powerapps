@@ -30,16 +30,8 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
+          "AutoRuleBindingString": "Blank",
           "InvariantPropertyName": "custPropSelectMenu",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "{SampleStringField: \"SampleText\", SampleNumberField: 10, SampleBooleanField: true}",
-          "InvariantPropertyName": "custPropSelectedMenu",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         }
@@ -75,11 +67,6 @@
         {
           "Category": "Data",
           "PropertyName": "custPropSelectMenu",
-          "RuleProviderType": "System"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "custPropSelectedMenu",
           "RuleProviderType": "System"
         },
         {
