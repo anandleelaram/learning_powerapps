@@ -14,9 +14,9 @@ scrnHome As screen:
                 }
             ]
         );
-        Set(varSelectedTab, LookUp(varMenuData,GoToTabMenuScreen = App.ActiveScreen);
 
     cmpntTabMenu_1 As cmpntTabMenu:
+        custPropSelectedMenu: =LookUp(varMenuData,GoToTabMenuScreen = App.ActiveScreen)
         custPropTabLstMenuItems: =varMenuData
         Height: =103
         Width: =640
