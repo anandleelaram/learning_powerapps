@@ -17,7 +17,11 @@ scrnHome As screen:
         Set(varSelectedMenu, cmpntTabMenu_3.custPropSelectedMenu);
 
     cmpntTabMenu_3 As cmpntTabMenu:
-        custPropSetMenuItem: =varSelectedMenu
+        custPropSetMenuItem: |-
+            ={
+                        TabMenuName: "🏠 Home",
+                        GoToTabMenuScreen: scrnHome
+                    }
         custPropTabLstMenuItems: =varMenuData
         Height: =96
         Width: =640
