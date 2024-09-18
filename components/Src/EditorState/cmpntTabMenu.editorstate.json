@@ -30,14 +30,6 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "Blank",
-          "InvariantPropertyName": "custPropSelectMenu",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
           "AutoRuleBindingString": "tabLstMenu.se",
           "InvariantPropertyName": "custPropSelectedMenu",
           "IsLockable": false,
@@ -70,11 +62,6 @@
         {
           "Category": "Data",
           "PropertyName": "custPropTabLstMenuItems",
-          "RuleProviderType": "System"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "custPropSelectMenu",
           "RuleProviderType": "System"
         },
         {
@@ -174,14 +161,7 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "DefaultSelectedItems",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "DefaultSelectedItems",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,

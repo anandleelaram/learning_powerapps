@@ -167,14 +167,7 @@
             "IsLockable": false,
             "NameMapSourceSchema": "?"
           },
-          {
-            "AFDDataSourceName": "",
-            "AutoRuleBindingEnabled": false,
-            "AutoRuleBindingString": "",
-            "InvariantPropertyName": "DefaultSelectedItems",
-            "IsLockable": false,
-            "NameMapSourceSchema": "?"
-          },
+          "DefaultSelectedItems",
           {
             "AFDDataSourceName": "",
             "AutoRuleBindingEnabled": false,
@@ -208,7 +201,7 @@
           },
           {
             "Category": "Data",
-            "InvariantScript": "cmpntTabMenu.custPropSelectMenu",
+            "InvariantScript": "",
             "Property": "DefaultSelectedItems",
             "RuleProviderType": "Unknown"
           },
@@ -308,21 +301,13 @@
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "Blank",
-        "InvariantPropertyName": "custPropSelectMenu",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
         "AutoRuleBindingString": "tabLstMenu.se",
         "InvariantPropertyName": "custPropSelectedMenu",
         "IsLockable": false,
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638622377560375054",
+    "LastModifiedTimestamp": "638622390568966100",
     "Name": "cmpntTabMenu",
     "Rules": [
       {
@@ -341,12 +326,6 @@
         "Category": "Data",
         "InvariantScript": "Table({\n    TabMenuName: \"\uD83C\uDFE0 Home\",\n    GoToTabMenuScreen: App.ActiveScreen\n})",
         "Property": "custPropTabLstMenuItems",
-        "RuleProviderType": "System"
-      },
-      {
-        "Category": "Data",
-        "InvariantScript": "Blank()",
-        "Property": "custPropSelectMenu",
         "RuleProviderType": "System"
       },
       {
@@ -438,15 +417,6 @@
     },
     {
       "Category": 0,
-      "DisplayName": "custPropSelectMenu",
-      "Hidden": false,
-      "Name": "custPropSelectMenu",
-      "PropertyDataTypeKey": "Record",
-      "Tooltip": "A custom property",
-      "Type": "{\"Version\":\"1.343\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"ObjNull\",\"EnumString\":\"N\",\"Type\":[]}}"
-    },
-    {
-      "Category": 0,
       "DisplayName": "custPropSelectedMenu",
       "Hidden": true,
       "Name": "custPropSelectedMenu",
@@ -463,7 +433,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638622377560375054",
+  "LastModifiedTimestamp": "638622390568966100",
   "Name": "79798e8da60240c0b23011c79c8f4f01",
   "OverridableProperties": {},
   "Version": "1.0"

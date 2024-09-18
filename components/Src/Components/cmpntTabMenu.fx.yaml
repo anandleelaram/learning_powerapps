@@ -1,7 +1,6 @@
 cmpntTabMenu As CanvasComponent:
     custPropHeight: =100
     custPropSelectedMenu: =tabLstMenu.Selected
-    custPropSelectMenu: =Blank()
     custPropTabLstMenuItems: |-
         =Table({
             TabMenuName: "🏠 Home",
@@ -17,7 +16,7 @@ cmpntTabMenu As CanvasComponent:
     ZIndex: =1
 
     "tabLstMenu As 'Tab list'.pcfdataset":
-        DefaultSelectedItems: =cmpntTabMenu.custPropSelectMenu
+        DefaultSelectedItems: =
         DisplayMode: =DisplayMode.Edit
         Height: =Parent.Height
         Items: =cmpntTabMenu.custPropTabLstMenuItems
