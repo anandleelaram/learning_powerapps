@@ -3,33 +3,3 @@ scrnAbout As screen:
     OnVisible: |
         =false
 
-    cmpntTabMenu_1 As cmpntTabMenu:
-        custPropSetMenuItem: |-
-            ={
-                TabMenuName: "ℹ️ About",
-                GoToTabMenuScreen: scrnAbout
-            }
-        custPropTabLstMenuItems: =varMenuData
-        Height: =116
-        Width: =521
-
-    TextCanvas1_1 As Text:
-        DisplayMode: =DisplayMode.Edit
-        Height: =93
-        Size: =40
-        Text: ="About"
-        Width: =640
-        X: =0
-        Y: =186
-        ZIndex: =2
-
-    TextCanvas1_3 As Text:
-        DisplayMode: =DisplayMode.Edit
-        Height: =93
-        Size: =40
-        Text: =cmpntTabMenu_3.custPropSelectedMenu.TabMenuName
-        Width: =640
-        X: =0
-        Y: =382
-        ZIndex: =3
-
