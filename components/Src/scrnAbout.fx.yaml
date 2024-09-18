@@ -3,3 +3,7 @@ scrnAbout As screen:
     OnVisible: |
         =false
 
+    cmpntTabMenu_2 As cmpntTabMenu:
+        Height: =110
+        Width: =640
+

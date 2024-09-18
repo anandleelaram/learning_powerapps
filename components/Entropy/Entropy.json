@@ -1,13 +1,15 @@
 {
   "ComponentIndexes": {
     "cmpntTabMenu": 2,
-    "cmpntTabMenu_1": 2
+    "cmpntTabMenu_1": 2,
+    "cmpntTabMenu_2": 2
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
     "cmpntTabMenu": 4,
     "cmpntTabMenu_1": 15,
+    "cmpntTabMenu_2": 16,
     "Host": 3,
     "scrnAbout": 7,
     "scrnHome": 11,
@@ -16,7 +18,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/18/2024 09:45:45",
+  "HeaderLastSavedDateTimeUTC": "09/18/2024 09:46:03",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
@@ -41,6 +43,7 @@
     "App": {},
     "cmpntTabMenu": {},
     "cmpntTabMenu_1": {},
+    "cmpntTabMenu_2": {},
     "Host": {},
     "scrnAbout": {},
     "scrnHome": {},
@@ -68,6 +71,7 @@
     "App": 0,
     "cmpntTabMenu": 0,
     "cmpntTabMenu_1": 0,
+    "cmpntTabMenu_2": 0,
     "Host": 0,
     "scrnAbout": 0,
     "scrnHome": 0,
@@ -80,7 +84,7 @@
   "VolatileProperties": {
     "AnalysisLoadTime": 0.167383,
     "ControlCount": {
-      "79798e8da60240c0b23011c79c8f4f01": 4,
+      "79798e8da60240c0b23011c79c8f4f01": 5,
       "PowerApps_CoreControls_TabList": 1,
       "PowerApps_CoreControls_TabListTemplate_dataField": 1,
       "PowerApps_CoreControls_TextCanvas": 4,
