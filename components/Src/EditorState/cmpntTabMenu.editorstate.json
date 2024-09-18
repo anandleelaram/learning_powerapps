@@ -30,7 +30,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "Blank",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "custPropSetMenuItem",
           "IsLockable": false,
           "NameMapSourceSchema": "?"

@@ -27,14 +27,7 @@
           "NameMapSourceSchema": "?"
         },
         "OnReset",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "Blank()",
-          "InvariantPropertyName": "custPropSetMenuItem",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "custPropSetMenuItem",
         "custPropSelectedMenu"
       ],
       "HasDynamicProperties": false,
@@ -74,7 +67,7 @@
         {
           "Category": "Data",
           "PropertyName": "custPropSetMenuItem",
-          "RuleProviderType": "User"
+          "RuleProviderType": "System"
         },
         {
           "Category": "Data",
