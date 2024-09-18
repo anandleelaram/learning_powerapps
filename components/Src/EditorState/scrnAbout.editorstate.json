@@ -73,7 +73,7 @@
         {
           "Category": "Data",
           "PropertyName": "custPropSelectedMenu",
-          "RuleProviderType": "System"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Design",

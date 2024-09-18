@@ -12,6 +12,7 @@ scrnAbout As screen:
         );
 
     cmpntTabMenu_2 As cmpntTabMenu:
+        custPropSelectedMenu: =LookUp(varMenuData,GoToTabMenuScreen = App.ActiveScreen)
         custPropTabLstMenuItems: =varMenuData
         Height: =110
         Width: =640
