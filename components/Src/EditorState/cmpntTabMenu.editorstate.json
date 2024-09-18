@@ -174,7 +174,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "DefaultSelectedItems",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "DefaultSelectedItems",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "OnChange"
       ],
       "HasDynamicProperties": false,
