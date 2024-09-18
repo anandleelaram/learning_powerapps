@@ -13,6 +13,7 @@ scrnHome As screen:
                 }
             ]
         );
+        Set(varSelectedMenuItem, cmpntTabMenu_3.custPropSelectedMenu);
 
     cmpntTabMenu_3 As cmpntTabMenu:
         custPropTabLstMenuItems: =varMenuData
