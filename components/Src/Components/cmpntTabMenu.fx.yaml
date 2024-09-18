@@ -1,10 +1,14 @@
 cmpntTabMenu As CanvasComponent:
     custPropHeight: =100
     custPropSelectedMenu: |-
-        ={
-            TabMenuName: "🏠 Home",
-            GoToTabMenuScreen: App.ActiveScreen
-        }
+        =If(
+            IsBlank(varSelectedItem),
+            {
+                TabMenuName: "🏠 Home",
+                GoToTabMenuScreen: App.ActiveScreen
+            },
+            varSelectedItem
+        )
     custPropSelectMenu: |-
         ={
             TabMenuName: "🏠 Home",
